@@ -1,0 +1,5 @@
+FILENAME="dtcal.sh"
+echo "filename:$FILENAME" 
+echo "linecount: $(wc -l <"$FILENAME")"
+echo "wordcount: $(wc -w <"$FILENAME")"
+echo "charcount: $(wc -c <"$FILENAME")"
